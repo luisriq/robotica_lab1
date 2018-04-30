@@ -144,7 +144,6 @@ void loop() {
     Serial.println(angulos.q1);
     Serial.println(angulos.q2);
     Serial.println(angulos.q3);
-    Serial.println("·········");
     angulos = calibrarAngulos(angulos);
     Serial.println(angulos.q1);
     Serial.println(angulos.q2);
